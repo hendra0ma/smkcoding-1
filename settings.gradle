@@ -1,0 +1,2 @@
+rootProject.name='BIodata'
+include ':app'

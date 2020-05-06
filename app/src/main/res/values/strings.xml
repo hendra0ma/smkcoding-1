@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BIodata</string>
+    <string-array name="jeniKelamin">
+        <item>masukan jenis kelamin</item>
+        <item>laki laki</item>
+        <item>perempuan</item>
+
+    </string-array>
+</resources>

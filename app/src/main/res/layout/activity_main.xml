@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bio Data"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:id="@+id/inputNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"
+            android:layout_margin="20dp"/>
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:entries="@array/jeniKelamin"
+            />
+        <EditText
+            android:id="@+id/inputUmur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Umur"
+            android:inputType="number"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/inputTelpon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telpon"
+            android:inputType="phone"
+            android:layout_margin="20dp"/>
+        <EditText
+            android:id="@+id/inputAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Alamat"
+            android:layout_margin="20dp"/>
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="SIMPAN"></Button>
+    </LinearLayout>
+
+
+</ScrollView>
+
